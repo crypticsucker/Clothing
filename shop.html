@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Clothing Store - Shop</title>
+    <link rel="stylesheet" href="shop.css">
+</head>
+<body>
+    <nav class="nav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li class="contact-tab">
+                <a href="contact.html">Contact</a>
+                <div class="search-container">
+                    <img src="icons/search.ico" alt="Search Icon">
+                    <input type="text" placeholder="Search...">
+                </div>
+            </li>
+            <li class="cart-icon" data-count="3">
+                <img src="icons/Vector.png" alt="Cart Icon">
+            </li>
+            <li class="login-tab"><a href="login.html">Login</a></li>
+        </ul>
+    </nav>
+    <div class="shop-page">
+        <h2 class="shop-heading">Shop Men's</h2>
+        <p class="shop-description">Discover our collection of men's clothing.</p>
+        </div>
+    <div class="content">
+        
+
+            <div class="filter">
+                <label for="category">Category:</label>
+                <input type="checkbox" id="jackets" name="category" value="jackets">
+                <label for="jackets">Jackets</label>
+                <input type="checkbox" id="shirts" name="category" value="shirts">
+                <label for="shirts">Shirts</label>
+                <input type="checkbox" id="pants" name="category" value="pants">
+                <label for="pants">Pants</label>
+                <input type="checkbox" id="t-shirts" name="category" value="t-shirts">
+                <label for="t-shirts">T-shirts</label>
+            </div>
+
+            <div class="filter">
+                <label for="color">Color:</label>
+                <span class="color-option" style="background-color: #000;"></span>
+                <span class="color-option" style="background-color: #ff0000;"></span>
+                <span class="color-option" style="background-color: #00ff00;"></span>
+                <span class="color-option" style="background-color: #0000ff;"></span>
+            </div>
+
+            <div class="clothing-boxes">
+                <div class="clothing-box">
+                    <img src="men cloth/SUIT.png" alt="Clothing 1">
+                    <h3>Clothing 1</h3>
+                    <p>$49.99</p>
+                </div>
+                <div class="clothing-box">
+                    <img src="men cloth/spiderman.png" alt="Clothing 2">
+                    <h3>Clothing 2</h3>
+                    <p>$59.99</p>
+                </div>
+                <div class="clothing-box">
+                    <img src="men cloth/classicwear.png" alt="Clothing 3">
+                    <h3>Clothing 3</h3>
+                    <p>$39.99</p>
+                </div>
+                <div class="clothing-box">
+                    <img src="men cloth/johnny.png" alt="Clothing 4">
+                    <h3>Clothing 4</h3>
+                    <p>$69.99</p>
+                </div>
+                <div class="clothing-box">
+                    <img src="men cloth/putin.png" alt="Clothing 5">
+                    <h3>Clothing 5</h3>
+                    <p>$79.99</p>
+                </div>
+                <div class="clothing-box">
+                    <img src="men cloth/putin.png" alt="Clothing 6">
+                    <h3>Clothing 6</h3>
+                    <p>$89.99</p>
+                </div>
+            </div>
+
+            <button class="load-more-button">Load More Products</button>
+        </div>
+    </div>
+</body>
+</html>
+

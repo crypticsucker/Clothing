@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <nav class="nav">
+        <ul>
+            <div class="home">
+                <li><a href="index.html">Home</a></li>
+            </div>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li class="contact-tab">
+                <a href="contact.html">Contact</a>
+                <div class="search-container">
+                    <img src="icons/search.ico" alt="Search Icon">
+                    <input type="text" placeholder="Search...">
+                </div>
+            </li>
+            <li class="cart-icon" data-count="3">
+                <img src="/icons/Vector.png" alt="Cart Icon">
+            </li>
+            <li class="login-tab"><a href="login.html">Login</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h2>Login</h2>
+        <form>
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username" placeholder="Enter your username" required>
+    
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" placeholder="Enter your password" required>
+    
+          <button type="submit">Login</button>
+        </form>
+      </div>
+</body>
+</html>

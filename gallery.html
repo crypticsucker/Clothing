@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Clothing Store - Gallery</title>
+    <link rel="stylesheet" href="gallery.css">
+    <link rel="stylesheet" type="text/css" href="fotorama.css"/>
+</head>
+<body>
+    <nav class="nav">
+        <ul>
+            <div class="home">
+                <li><a href="index.html">Home</a></li>
+            </div>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li class="contact-tab">
+                <a href="contact.html">Contact</a>
+                <div class="search-container">
+                    <img src="icons/search.ico" alt="Search Icon">
+                    <input type="text" placeholder="Search...">
+                </div>
+            </li>
+            <li class="cart-icon" data-count="3">
+                <img src="icons/Vector.png" alt="Cart Icon">
+            </li>
+            <li class="login-tab"><a href="login.html">Login</a></li>
+        </ul>
+    </nav>
+
+    <div class="content">
+        <h1>Gallery</h1>
+
+        <div class="fotorama" data-nav="thumbs">
+            <a href="image1.jpg"><img src="/product/2004408.png" alt="Image 1"></a>
+            <a href="image2.jpg"><img src="product/356179643017211.png" alt="Image 2"></a>
+            <a href="image3.jpg"><img src="product/Jacket-Download-PNG.png" alt="Image 3"></a>
+            
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="fotorama.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.fotorama').fotorama();
+        });
+    </script>
+</body>
+</html>
+
